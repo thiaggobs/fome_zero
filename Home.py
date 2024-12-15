@@ -80,7 +80,7 @@ def color_name(color_code):
 #-----------------------------------
 ### Importação dos dados
 #-----------------------------------
-df = pd.read_csv('dataframe\zomato.csv')
+df = pd.read_csv('dataframe/zomato.csv')
 
 df = rename_columns(df)
 
