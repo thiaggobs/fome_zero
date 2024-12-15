@@ -81,7 +81,7 @@ def image2_to_base64(image):
 #-----------------------------------
 ### Importação dos dados
 #-----------------------------------
-df = pd.read_csv(r'C:\Users\Thiago\Documents\repos\Projeto_final\dataframe\zomato.csv')
+df = pd.read_csv('dataframe\zomato.csv')
 
 df = rename_columns(df)
 
